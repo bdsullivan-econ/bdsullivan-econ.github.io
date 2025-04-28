@@ -44,5 +44,20 @@ Here’s what each line means:
 <a target="_blank" rel="noopener noreferrer" href="http://your_url_here.html">Link</a>
 ```
 * [Basic HTML Guide](https://easyhtmlcss.com/)
+* Create a collapsible list item for abstracts
+```html
+<ul style="list-style-type:none;">
+ <li>
+  <details>
+   <summary>
+    Abstract
+   </summary>
+   <p>
+    INSERT ABSTRACT HERE
+   </p>
+  </details>
+ </li>
+</ul>
+```
 
 

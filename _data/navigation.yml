@@ -10,12 +10,11 @@
 main:
   - title: "Research"
     url: /research/
-
-  - title: "Talks"
-    url: /talks/    
         
   - title: "Reports & Posts"
     url: /posts/
-    
+
+  - title: "Talks"
+    url: /talks/    
 
   

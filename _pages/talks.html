@@ -1,16 +1,37 @@
 ---
 layout: archive
-title: "Talks and presentations"
-permalink: /talks/
+title: "Talks and Presentations"
+permalink: /presentations/
 author_profile: true
+last_modified_at:   2025-10-08
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+    footer{
+    	 display: inline-block;
+    	 margin-top: 2%;
+    	}
+	</style>
+</head>
+  
+<body>
+	<p style="color: gray;"><b>2025</b></p>
+	<h3>
+    <a target="_blank" rel="noopener noreferrer" href="https://planning.maryland.gov/MSDC/Documents/affiliate_meeting/2025/Presentations/3_SDC_Wealth_in_SIPP_Sep2025_Sullivan.pdf">Exploring the Survey of Income and Program Participation's (SIPP) Wealth Data</a>
+  </h3>
+  <p>September 24, 2025</p>
+		<p>
+      <a target="_blank" rel="noopener noreferrer" href="https://planning.maryland.gov/MSDC/Pages/affiliate_meeting/2025/sdcmeeting2025.aspx">Maryland State Data Center Annual Meeting</a>
+      <br>
+      A discussion of the Survey of Income and Program Participation's (SIPP) wealth data and how it can be used to evaluate wealth and its components in the U.S. and in Maryland across a variety of demographic and socioeconomic characteristics.
+		</p>
+</body>
+<footer>
+	 <font size="3">Last updated: {{ page.last_modified_at | date: date_format }}</font>
+</footer>
+</html>

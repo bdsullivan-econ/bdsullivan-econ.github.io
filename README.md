@@ -7,6 +7,7 @@
   * about.md
   * research.thml
   * posts.html
+  * talks.html
 * Collections of pages are .md or .html files in:
   * _publications/
   * _portfolio/
